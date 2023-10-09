@@ -1,0 +1,64 @@
+nav ul a,
+nav .brand-logo {
+  color: #0f478b;
+}
+
+nav .brand-logo img {
+  height: 56px;
+}
+
+.container {
+  width: 90%;
+}
+
+h1 {
+  color: #7259ca;
+  text-shadow: 1px 1px 2px rgb(224, 45, 75);
+}
+
+h2 {
+  color: #795548;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.page-footer {
+  margin: 0;
+}
+
+.page-footer a {
+  color: white;
+}
